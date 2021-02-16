@@ -40,7 +40,7 @@ function TeacherList() {
                         options={
                             [
                                 { value: 'Artes', label: 'Artes' },
-                                { value: 'Matemárica', label: 'Matemárica' },
+                                { value: 'Matemática', label: 'Matemática' },
                                 { value: 'Geografia', label: 'Geografia' }
                             ]
                         }
