@@ -2,8 +2,8 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
 
-import TeacherList from '../pages/TeacherList';
-import Favorites from '../pages/Favorites';
+import TeacherList from '../pages/teacherList';
+import Favorites from '../pages/favorites';
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
@@ -23,8 +23,8 @@ function StudyTabs() {
         },
         iconStyle: {
           flex: 0,
-          width: 20,
-          height: 20,
+          width: 30,
+          height: 30,
         },
         labelStyle: {
           fontFamily: 'Archivo_700Bold',

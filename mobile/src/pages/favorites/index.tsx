@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { View, ScrollView } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native'
 
-import PageHeader from '../../components/PageHeader';
-import TeacherItem, { Teacher } from '../../components/TeacherItem';
+import PageHeader from '../../components/pageHeader';
+import TeacherItem, { Teacher } from '../../components/teacherItem';
 
 import styles from './styles';
 import AsyncStorage from '@react-native-community/async-storage';
